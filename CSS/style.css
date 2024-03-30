@@ -20,7 +20,7 @@
   left: 395px;
   border-radius: 16px;
   border: 2px solid;
-  border-color: var(--variable-collection-black);
+  border-color: var(--black);
   box-shadow: 0px 6px 0px 4px #2d2c2c;
 }
 
@@ -33,7 +33,7 @@
   position: absolute;
   top: 282px;
   left: 262px;
-  background-color: var(--variable-collection-black);
+  background-color: var(--black);
   border-radius: 16px;
   overflow: hidden;
 }
@@ -44,7 +44,7 @@
   margin-top: -1px;
   font-family: "Futura PT-Demi", Helvetica;
   font-weight: 400;
-  color: var(--variable-collection-white);
+  color: var(--white);
   font-size: 24px;
   text-align: center;
   letter-spacing: 0;
@@ -70,11 +70,11 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: var(--variable-collection-white);
+  background-color: var(--white);
   border-radius: 16px;
   overflow: hidden;
   border: 2px solid;
-  border-color: var(--variable-collection-gray-1);
+  border-color: var(--gray-1);
 }
 
 .macbook-pro .div {
@@ -97,10 +97,10 @@
   height: 52px;
   top: 0;
   left: 573px;
-  background-color: var(--variable-collection-gray-2);
+  background-color: var(--gray-2);
   border-radius: 0px 16px 16px 0px;
   border: 2px solid;
-  border-color: var(--variable-collection-gray-1);
+  border-color: var(--gray-1);
 }
 
 .macbook-pro .text-wrapper-2 {
@@ -109,7 +109,7 @@
   left: 54px;
   font-family: "League Spartan", Helvetica;
   font-weight: 800;
-  color: var(--variable-collection-black);
+  color: var(--black);
   font-size: 40px;
   text-align: center;
   letter-spacing: 4px;
@@ -123,10 +123,10 @@
   height: 49px;
   top: 0;
   left: 0;
-  background-color: var(--variable-collection-gray-2);
+  background-color: var(--gray-2);
   border-radius: 16px 16px 0px 0px;
   border: 2px solid;
-  border-color: var(--variable-collection-gray-1);
+  border-color: var(--gray-1);
 }
 
 .macbook-pro .ellipse {
@@ -135,10 +135,10 @@
   width: 20px;
   height: 20px;
   top: 12px;
-  background-color: var(--variable-collection-white);
+  background-color: var(--white);
   border-radius: 10px;
   border: 2px solid;
-  border-color: var(--variable-collection-gray-1);
+  border-color: var(--gray-1);
 }
 
 .macbook-pro .ellipse-2 {
@@ -147,10 +147,10 @@
   width: 20px;
   height: 20px;
   top: 12px;
-  background-color: var(--variable-collection-white);
+  background-color: var(--white);
   border-radius: 10px;
   border: 2px solid;
-  border-color: var(--variable-collection-gray-1);
+  border-color: var(--gray-1);
 }
 
 .macbook-pro .ellipse-3 {
@@ -159,8 +159,8 @@
   width: 20px;
   height: 20px;
   top: 12px;
-  background-color: var(--variable-collection-white);
+  background-color: var(--white);
   border-radius: 10px;
   border: 2px solid;
-  border-color: var(--variable-collection-gray-1);
+  border-color: var(--gray-1);
 }
