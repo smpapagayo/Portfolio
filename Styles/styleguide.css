@@ -1,3 +1,13 @@
+/* Importing typefaces */
+@font-face {
+  font-family: "Futura PT-Demi";
+  src: url("https://anima-uploads.s3.amazonaws.com/5b59ac6041bb8600090b709d/.15586.otf") format("opentype");
+}
+@font-face {
+  font-family: "Futura PT-Heavy";
+  src: url("https://anima-uploads.s3.amazonaws.com/5bf2fb9ce7a1580009337451/.10881.otf") format("opentype");
+}
+
 /* Custom Properties */
 :root {
   --xsm-text: 0.5em;    /* 8pt */
@@ -35,7 +45,11 @@
   --secondary-background: #E4E4EA;
   --tertiary--backgorund: #CBCCD4;
 
-  --primary-font: "Futura PT-Demi", Helvetica;
-  --secondary-font: "League Spartan", Helvetica;
+  --primary-font: "Jost", sans-serif;
+  --secondary-font: "League Spartan", sans-serif;
 
 }
+
+
+  /* For Jost:
+  font-style: normal|italic; */
