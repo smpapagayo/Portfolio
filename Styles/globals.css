@@ -1,22 +1,95 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 @import url("https://fonts.googleapis.com/css?family=League+Spartan:800");
+
+/*------------------------------- RESET -----------------------------------*/
+
+/* Resetting margins and padding for all tags */
 * {
-  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+  border: 0;
   box-sizing: border-box;
+  vertical-align: baseline;
 }
-html,
-body {
-  margin: 0px;
-  height: 100%;
+
+/* Avoiding issues with images */
+img, picture, video, iframe, figure {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center center;
 }
-/* a blue color as a generic focus style */
-button:focus-visible {
-  outline: 2px solid #4a90e2 !important;
-  outline: -webkit-focus-ring-color auto 5px !important;
-}
+
+/* Set "a" tags as blocks */
 a {
-  text-decoration: none;
+  display: block;
 }
+
+/* Resetting the style of "li" tags */
+li {
+  list-style-type: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Turn off the default styles for the main text tags */
+h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i, b, u, em {
+  font-size: 1em;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* The cursor pointer is active for the "a" and "button" tags */
+a, button {
+  cursor: pointer;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+form, input, textarea, select, button, label {
+  font-family: inherit;
+  font-size: inherit;
+  hyphens: auto;
+  background-color: transparent;
+  display: block;
+  color: inherit;
+}
+
+/* Resetting the tables */
+table, tr, td {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Fixing issues with SVGs */
+svg {
+  display: block;
+}
+
+/* Setting the typography for the website */
+body {
+  position: relative;
+  min-height: 100vh;
+  font-family: var(--primary-font);
+  font-size: 100%;
+  color: var(--secondary-text);
+}
+
+/* Setting the text that is selected */
+::selection {
+  background-color: var(--primary-text);
+  color: var(--secondary-background);
+}
+
+/* Importing typefaces */
 @font-face {
   font-family: "Futura PT-Demi";
   src: url("https://anima-uploads.s3.amazonaws.com/5b59ac6041bb8600090b709d/.15586.otf") format("opentype");
@@ -26,3 +99,15 @@ a {
   font-family: "Futura PT-Heavy";
   src: url("https://anima-uploads.s3.amazonaws.com/5bf2fb9ce7a1580009337451/.10881.otf") format("opentype");
 }
+
+
+
+
+
+
+
+
+
+
+
+
