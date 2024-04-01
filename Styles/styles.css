@@ -13,9 +13,9 @@ h1 {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0 40px;
+  padding: 20px 40px;
   width: 100vw;
-  height: 80px;
+  height: auto;
   background-color: var(--primary-text);
 }
 
@@ -40,9 +40,7 @@ section {
   padding: 80px 40px;
   width: 100vw;
 }
-section h1 {
-  font-size: var(--H1-mobile);
-}
+
 section h2 {
   font-weight: 600;
   font-size: var(--H2-mobile);
@@ -56,4 +54,25 @@ section h3 {
   line-height: 0.9em;
   color: var(--secondary-text);
   text-align: center;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .logo {
+    width: 48px;
+  }
+}
+
+@media (min-width: 1024px) {
+  h1 {
+      font-size: var(--H1-desktop);
+  }
+  .logo {
+    width: 54px;
+  }
+  section h2 {
+      font-size: var(--H2-desktop);
+  }
+  section h3 {
+      font-size: var(--H3-desktop);
+  }
 }
