@@ -55,6 +55,50 @@ section h3 {
   color: var(--secondary-text);
   text-align: center;
 }
+section h4 {
+  margin-top: 8x;
+  font-weight: 600;
+  font-size: var(--H4-mobile);
+  line-height: 0.9em;
+  color: var(--secondary-text);
+  text-align: center;
+}
+
+.contact {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  margin: 8px auto;
+  width: auto;
+}
+
+.contact li a {
+  display: grid;
+  place-items: center;
+  grid-row-gap: 8px;
+  padding: 12px;
+  font-family: var(--secondary-font);
+}
+
+.contact li a:focus {
+  outline: none;
+}
+
+.contact a svg {
+  width: 40px;
+  height: 40px;
+  fill: var(--primary-text);
+}
+
+.contact a:hover svg {
+  width: 45px;
+  height: 45px;
+  fill: var(--primary-color);
+}
+
+.contact a:hover .social-link-text {
+  border-bottom: 2px solid var(--primary-color);
+}
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .logo {
@@ -75,4 +119,7 @@ section h3 {
   section h3 {
       font-size: var(--H3-desktop);
   }
+  section h4 {
+    font-size: var(--H4-desktop);
+}
 }
