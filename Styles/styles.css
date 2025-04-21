@@ -121,5 +121,6 @@ section h4 {
   }
   section h4 {
     font-size: var(--H4-desktop);
+    line-height: 1.1em;
 }
 }
